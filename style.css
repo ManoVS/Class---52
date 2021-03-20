@@ -1,0 +1,68 @@
+h1{
+    color : #0000ff;
+    margin-left: 50px;
+}
+.new{
+    margin-right: 50px;
+}
+.header{
+    color : red;
+    background-color: #00ff80;
+    display: flex;
+    justify-content: space-between;
+}
+.header *{
+    border: solid;
+    border-color: #00ffff;
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.game{
+    position: relative;
+}
+
+.game p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.game:hover p{
+    opacity: 1;
+    color: black;
+}
+.game:hover img{
+    opacity: 0.2;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;   
+}
+p{
+    color: red;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+}
+h2{
+    color: cyan;
+}
+body{
+    background-color: #808080;
+}
+a:link{
+    color: #0000ff;
+}
+a:visited{
+    color: #ff0000;
+}
+.new a{
+    margin-left: 30px;
+}
